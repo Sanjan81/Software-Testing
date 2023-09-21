@@ -1,4 +1,16 @@
 import unittest 
+import datetime
+
+def my_brand(assignamentname):
+    print("=*=*=*= Sanjana =*=*=*=")
+    print("=*=*=*= Course 2023S-SSW567-WS =*=*=*=")
+    print("=*=*=*=", assignmentname," =*=*=*=")
+    print("=*=*=*=",datetime.datetime.now().strftime("%Y-%m-%d  %H:%M:%S"),"=*=*=*=")
+
+# In[4]:
+assignmentname = "HW 01"
+my_brand(assignmentname)
+
 def classify_triangle(a,b,c):
     if a+b>=c and b+c>=a and c+a>=b:
         return True
