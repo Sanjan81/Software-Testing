@@ -1,4 +1,4 @@
-from Triangle-1 import classify_triangle
+from Triangle import classify_triangle
 class TestTriangles(unittest.TestCase):
   
     def testset_1():
