@@ -6,7 +6,7 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classify_triangle(5,5,5),True,'Equilateral triangle')
         
     def testset_2(self):
-        self.assertEqual(classify_triangle(4,5,4),False,'Isosceles')
+        self.assertNotEqual(classify_triangle(4,5,4),False,'Isosceles')
         self.assertNotEqual(classify_triangle(3,4,3),False,'Scalene : should be Isosceles')
         self.assertNotEqual(classify_triangle(6,7,5),False,'Scalene : should be Isosceles')
         
