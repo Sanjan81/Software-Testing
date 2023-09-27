@@ -1,6 +1,7 @@
+from Triangle-1 import classify_triangle
 class TestTriangles(unittest.TestCase):
   
-    def testset_1(self):
+    def testset_1():
         self.assertEqual(classify_triangle(5,5,5),True,'Equilateral triangle')
         
     def testset_2(self):
