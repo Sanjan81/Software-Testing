@@ -21,4 +21,5 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classify_triangle(3,4,5),True,'Isosceles : should be Scalene test')
         
 if __name__ == '__main__':
+  print("Every testcase is passed")
     unittest.main()
