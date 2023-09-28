@@ -24,7 +24,7 @@ def triangle_type(a,b,c):
         else:
             print('Triangle is Scalane')
         if (a*a+b*b==c*c) or (c*c+b*b==a*a) or (a*a+c*c==b*b) :
-            print('Tringle is Right angle')
+            print('Triangle is Right angle')
 
 a=3
 b=4
